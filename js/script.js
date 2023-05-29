@@ -5,15 +5,6 @@
 'use strict'
 
 /**
- * Check service worker.
- */
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ASSIGNMENT-05-HTML/sw.js", {
-    scope: "/ASSIGNMENT-05-HTML/",
-  })
-}
-
-/**
  * Input.
  */
 
